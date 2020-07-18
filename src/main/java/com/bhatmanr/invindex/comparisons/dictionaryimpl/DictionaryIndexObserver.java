@@ -2,6 +2,6 @@ package com.bhatmanr.invindex.comparisons.dictionaryimpl;
 
 public interface DictionaryIndexObserver {
 
-    void UpdateIndex(String term, String doc_id);
+    void UpdateIndex(String term, String docId);
     void SearchIndex(String term);
 }

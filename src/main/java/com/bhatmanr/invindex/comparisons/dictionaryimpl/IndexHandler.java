@@ -24,9 +24,9 @@ public class IndexHandler implements Subject {
         }
     }
 
-    public void UpdateObserverIndex(String term, String doc_id) {
+    public void UpdateObserverIndex(String term, String docId) {
         for (DictionaryIndexObserver observer: indexObservers) {
-            observer.UpdateIndex(term, doc_id);
+            observer.UpdateIndex(term, docId);
         }
     }
 
