@@ -29,4 +29,7 @@ I will be writing these articles one by one in the coming month. before 6th July
 
 You reviews/feedbacks/important are most welcome.
 
+TODO code improvs: Use Java Modules instead of a single src folder. `I am new to java, will be having different iteration for code implementations to make it better.`
+
+
 Stay Tuned. Stay Safe.
