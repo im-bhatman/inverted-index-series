@@ -6,11 +6,11 @@ import java.util.Map;
 public class HashDictionaryIndex implements DictionaryIndexObserver {
 
     private static Map<String, String> hashTermIndex = new HashMap<String, String>();
-    private Subject indexHandler;
+    private Subject indexHandler; // Do we really need this here ?
 
     public HashDictionaryIndex(Subject indxHndlr) {
         this.indexHandler = indxHndlr;
-        indexHandler.RegisterObserverIndex(this);
+        this.indexHandler.RegisterObserverIndex(this);
     }
 
 
